@@ -1,18 +1,20 @@
 class linear {
-    public static void linear(int[] arr, int x) {
-        int c=0;
-        for(int i=0;i<arr.length;i++) {
+    public static int search(int[] arr, int x) {
+        int i;
+        for(i=0;i<arr.length;i++) {
             if(arr[i]==x)
-                c++;
+                return i;
         }
-        if(c==1)
-            System.out.println("Element found");
-        else    
-            System.out.println("Element not found");
+        return -1;
     }
     public static void main(String args[]) {
+        linear ob=new linear();
         int[] arr={9,5,1,7,6,0,3};
-        int x=6;
-        linear(arr,x);
+        int x=9;
+        int result=ob.search(arr,x);
+        if(result==-1)
+            System.out.println("Element not found");
+        else    
+            System.out.println("Element found at index "+result);
     }
 }
