@@ -26,7 +26,14 @@ class selection {
         printArray(arr);
     }
 }
+ 
+//Finding the index in smallest and checking it with every element and swapping accordingly
 
-/* 
-Finding the index in smallest and checking it with every element and swapping accordingly
+/*
+Time Complexity:
+Best Case - O(n)
+Average Case - O(n^2)
+Worst Case - O(n^2)
+Space Complexity:
+O(1)
  */

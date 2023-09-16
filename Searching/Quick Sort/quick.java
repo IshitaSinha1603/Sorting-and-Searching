@@ -42,3 +42,12 @@ class quick {
 }
 
 //Worst case occurs when pivot is always the smallest or the largest element
+
+/*
+Time Complexity:
+Best Case - O(nlog n)
+Average Case - O(n log n)
+Worst Case - O(n^2)
+Space Complexity:
+O(n)
+*/

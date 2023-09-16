@@ -41,3 +41,12 @@ class merge {
         printArray(arr);
     }
 }
+
+/*
+Time Complexity:
+Best Case - O(nlog n)
+Average Case - O(n log n)
+Worst Case - O(n logn)
+Space Complexity:
+O(n)
+*/

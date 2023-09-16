@@ -26,3 +26,12 @@ class binary {
             System.out.println("Element found at index "+result);
     }
 }
+
+/*
+Time Complexity:
+Best Case - O(log n)
+Average Case - O(log n)
+Worst Case - O(1)
+Space Complexity:
+O(1)
+*/

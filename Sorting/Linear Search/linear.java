@@ -18,3 +18,12 @@ class linear {
             System.out.println("Element found at index "+result);
     }
 }
+
+/*
+Time Complexity:
+Best Case - O(n)
+Average Case - O(n)
+Worst Case - O(1)
+Space Complexity:
+O(1)
+*/
