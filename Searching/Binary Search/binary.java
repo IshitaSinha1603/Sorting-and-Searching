@@ -29,9 +29,9 @@ class binary {
 
 /*
 Time Complexity:
-Best Case - O(log n)
+Best Case - O(1)
 Average Case - O(log n)
-Worst Case - O(1)
+Worst Case - O(log n)
 Space Complexity:
 O(1)
 */
